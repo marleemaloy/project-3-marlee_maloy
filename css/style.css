@@ -6,6 +6,8 @@ body {
     font: 100%/1.5 "Open Sans", sans-serif;
     color: #7f8c8d;
     font-size: 16px;
+    width: 100%;
+    margin: 111px 0 0 0;
 }
 
 h1,
@@ -31,6 +33,16 @@ label {
 	     url(web-fonts/opensans-reg/'OpenSans-Regular-webfont.ttf') format('truetype'),
 	     url(web-fonts/opensans-reg/'OpenSans-Regular-webfont.svg#webfont') format('svg');
 }
+
+a{
+  text-decoration: none;
+}
+
+.brand-blue{
+  color: #30c0d8;
+}
+
+
 
 
 /*
@@ -93,14 +105,32 @@ a.hero-button {
  */
 
 .home-menu {
-    padding: 0.5em;
-    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-    background: white;
+  padding: 0.5em;
+  box-shadow: 0 0 2px rgba(6,8,8,0.15);
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.menu-logo{
+font-size: 1.6rem;
+font-weight: 100;
+font-family: sans-serif;
+text-transform: uppercase;
 }
 
 .menu-list{
   list-style-type: none;
   display: flex;
+  padding-left: 0;
+}
+
+.menu-item{
+  margin-right: 7px;
 }
 
 
@@ -118,6 +148,9 @@ a.hero-button {
 
 .menu-link {
     color: #30c0d8;
+    font-size: .90rem;
+    font-weight: 400;
+    text-transform: uppercase;
 }
 .home-menu li a:hover,
 .home-menu li a:focus {
