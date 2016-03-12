@@ -18,7 +18,7 @@ label {
     color: #34495e;
 }
 
-.pure-img-responsive {
+.responsive-img {
     max-width: 100%;
     height: auto;
 }
