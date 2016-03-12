@@ -1,0 +1,127 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+    font: 100%/1.5 "Open Sans", sans-serif;
+    color: #7f8c8d;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+    color: #34495e;
+}
+
+.pure-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+@font-face{
+	font-family:'Open Sans';
+	src: url(web-fonts/opensans-reg/'OpenSans-Regular-webfont.eot');
+	src: url(web-fonts/opensans-reg/'OpenSans-Regular-webfont?iefix') format('eot'),
+	     url(web-fonts/opensans-reg/'OpenSans-Regular-webfont.woff') format('woff'),
+	     url(web-fonts/opensans-reg/'OpenSans-Regular-webfont.ttf') format('truetype'),
+	     url(web-fonts/opensans-reg/'OpenSans-Regular-webfont.svg#webfont') format('svg');
+}
+
+
+/*
+   -- LAYOUT STYLES --
+ */
+
+ .box {
+    padding: 1em;
+}
+
+.box-lrg {
+    padding: 2em;
+}
+
+.is-center {
+    text-align: center;
+}
+
+
+/*
+   -- FORM STYLES --
+ */
+
+.pure-form label {
+    margin: 1em 0 0;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.pure-form input[type] {
+    border: 2px solid #ddd;
+    box-shadow: none;
+    font-size: 100%;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+
+/*
+   -- FORM STYLES --
+ */
+
+
+.button {
+    background-color: #1f8dd6;
+    color: white;
+    padding: 0.5em 2em;
+    border-radius: 5px;
+}
+
+a.hero-button {
+  background: white;
+  color: #30C0D8;
+  border-radius: 8px;
+  font-size: 120%;
+}
+
+/*
+  -- MENU STYLES --
+ */
+
+.home-menu {
+    padding: 0.5em;
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    background: white;
+}
+
+.menu-list{
+  list-style-type: none;
+  display: flex;
+}
+
+
+.pure-menu.pure-menu-fixed {
+    border-bottom: none;
+    /* I need a higher z-index here because of the scroll-over effect. */
+    z-index: 4;
+}
+
+.home-menu .pure-menu-heading {
+    color: #30C0D8;
+    font-weight: 100;
+    font-size: 150%;
+}
+
+.menu-link {
+    color: #30c0d8;
+}
+.home-menu li a:hover,
+.home-menu li a:focus {
+    background: none;
+    border: none;
+    color: #AECFE5;
+}
