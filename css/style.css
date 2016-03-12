@@ -8,6 +8,7 @@ body {
     font-size: 16px;
     width: 100%;
     margin: 111px 0 0 0;
+    -webkit-font-smoothing: antialiased;
 }
 
 h1,
@@ -116,10 +117,7 @@ a.hero-button {
 }
 
 .menu-logo{
-font-size: 1.6rem;
-font-weight: 100;
-font-family: sans-serif;
-text-transform: uppercase;
+
 }
 
 .menu-list{
@@ -140,7 +138,7 @@ text-transform: uppercase;
 }
 
 .menu-link {
-    color: #30c0d8;
+    color: #34495e;
     font-size: .90rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -148,8 +146,8 @@ text-transform: uppercase;
 .home-menu li a:hover,
 .home-menu li a:focus {
     background: none;
-    border: none;
-    color: #AECFE5;
+    border-bottom: 2px solid #30c0d8;
+    color: #FF6952;
 }
 
 /*
@@ -168,7 +166,7 @@ text-transform: uppercase;
    display: flex;
    flex-direction: column;
    align-items: center;
-   padding-top: 2rem;
+   padding-top: 4rem;
  }
 
  .hero-head{
@@ -184,10 +182,11 @@ text-transform: uppercase;
  .hero-subhead{
    color: white;
    text-transform: uppercase;
-   font-weight: 300;
-   letter-spacing: 0.05em;
-   opacity: 0.8;
+   font-weight: 400;
+   letter-spacing: 0.03em;
    font-size: .9rem;
+   padding-left: .7rem;
+   padding-right: .7rem;
  }
 
  /*
@@ -197,8 +196,12 @@ text-transform: uppercase;
 .content-wrapper {
     /* These styles are for the "scroll-over" effect */
     position: absolute;
-    top: 50%;
+    top: 58%;
     width: 100%;
     z-index: 2;
     background: white;
+}
+
+.content-head{
+  font-weight: 400;
 }
