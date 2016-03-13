@@ -92,12 +92,18 @@ a{
     border-radius: 8px;
     font-size: 1rem;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 a.hero-button {
   background: white;
   color: #30C0D8;
+}
+
+a.call-to-action-button{
+  background: white;
+  color: #30C0D8;
+  padding: 0.5em .75em;
 }
 
 /*
@@ -114,10 +120,6 @@ a.hero-button {
   position: fixed;
   width: 100%;
   top: 0;
-}
-
-.menu-logo{
-
 }
 
 .menu-list{
@@ -139,10 +141,11 @@ a.hero-button {
 
 .menu-link {
     color: #34495e;
-    font-size: .90rem;
-    font-weight: 400;
-    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
 }
+
+
 .home-menu li a:hover,
 .home-menu li a:focus {
     background: none;
@@ -226,4 +229,100 @@ a.hero-button {
   color: white;
   font-weight: 400;
   font-size: 1.01rem;
+}
+
+.call-to-action {
+  background: #30C0D8;
+  padding: 2rem;
+}
+
+.call-to-action h3{
+    color: white;
+    font-weight: 300;
+    font-size: 1.65rem;
+}
+
+/*
+--SOCIAL ICONS INSIDE FOOTER--
+*/
+
+.social-icons i{
+  margin: 0 8px;
+}
+
+.social-icons a{
+  color: #666;
+}
+
+.social-icons a:hover,
+.social-icons a:focus{
+  color: #34495e;
+}
+
+
+/*
+--MEDIA QUERIES | TABLET--
+*/
+
+
+@media screen and (min-width: 600px) {
+  body{
+    margin-top: 72px;
+  }
+
+  .home-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right:  1.5rem;
+  }
+
+  .menu-logo{
+    margin-right: auto;
+    padding-left: 1.5rem;
+  }
+
+  .menu-link{
+    margin-right: 15px;
+  }
+
+  .hero-head{
+    font-size: 2.5rem;
+    padding: .9em;
+  }
+
+  .hero-subhead{
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+
+  a.hero-button{
+    padding: .85em 1.5em;
+    font-size: 1.05em;
+  }
+
+  .content-head{
+    font-size: 1.85rem;;
+  }
+
+  .our-specialties{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .p-ribbon{
+    font-size: 1.16rem;
+}
+
+  .content-head-ribbon{
+    margin-bottom: 0;
+}
+  .specialty-item{
+    margin: 1em .5em;
+    max-width: 270px;
+  }
+
+
 }
