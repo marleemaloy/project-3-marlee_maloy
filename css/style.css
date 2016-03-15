@@ -43,7 +43,7 @@ a{
   color: #30c0d8;
 }
 
-.white-icon{
+.is-white{
   color: white;
 }
 
@@ -97,24 +97,31 @@ a{
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: 600;
-    transition: transform, background, box-shadow .3s ease;
 }
-
-a.hero-button {
+/**/
+/**/
+/**/
+/*HAVING TROUBLE WITH TRANSFORM HERE*/
+/**/
+/**/
+/**/
+a.hero-button{
   background: white;
   color: #30C0D8;
-
+  transform: scale(1);
+  transition: background-color, transform .3s ease;
 }
 
 a.call-to-action-button{
   background: white;
   color: #30C0D8;
   padding: 0.5em .75em;
+
 }
+
 a.button:hover{
-  transition: transform, background, .3s ease;
-  background: #f2f2f2;
-  transform: scale(1.3);
+  background-color: #f2f2f2;
+  transform: scale(2)
 }
 
 
@@ -141,7 +148,7 @@ a.button:hover{
 }
 
 .menu-item{
-  margin-right: 7px;
+  margin: 0 15px;
 }
 
 
@@ -182,7 +189,7 @@ a.button:hover{
    display: flex;
    flex-direction: column;
    align-items: center;
-   padding-top: 4rem;
+   padding-top: 3rem;
  }
 
  .hero-head{
@@ -211,7 +218,7 @@ a.button:hover{
 .content-wrapper {
     /* These styles are for the "scroll-over" effect */
     position: absolute;
-    top: 80%;
+    top: 30rem;
     width: 100%;
     z-index: 2;
     background: white;
@@ -242,6 +249,7 @@ a.button:hover{
   color: white;
   font-weight: 400;
   font-size: 1.01rem;
+  padding: 0 10%;
 }
 
 .call-to-action {
@@ -280,7 +288,12 @@ a.button:hover{
 
 @media screen and (min-width: 600px) {
   body{
+    /*The menu height changes at this breakpoint.*/
     margin-top: 72px;
+  }
+
+  .content-box{
+    padding: 5rem 0;
   }
 
   .home-menu{
@@ -298,6 +311,11 @@ a.button:hover{
     margin-right: 15px;
   }
 
+
+  .hero-container{
+    height: 35rem;
+  }
+
   .hero-head{
     font-size: 2.5rem;
     padding: .9em;
@@ -311,6 +329,10 @@ a.button:hover{
   a.hero-button{
     padding: .85em 1.5em;
     font-size: 1.05em;
+  }
+
+  .content-wrapper{
+    top: 37rem;
   }
 
   .content-head{
@@ -327,15 +349,51 @@ a.button:hover{
 
   .p-ribbon{
     font-size: 1.16rem;
-}
+  }
 
   .content-head-ribbon{
     margin-bottom: 0;
-}
-  .specialty-item{
-    margin: 1em .5em;
-    max-width: 270px;
   }
 
+  .our-specialties{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 
+  .specialty-item{
+    margin: 1em .5em;
+    max-width: 45%;
+  }
+
+}
+
+@media screen and (min-width: 800px) {
+    .content-head,
+    .content-head-ribbon {
+      font-size: 1.95rem;
+    }
+
+    .content-subhead{
+      font-size: 1.3rem;
+    }
+
+    .specialty-description{
+      font-size: 1.1rem;
+    }
+
+    .p-ribbon{
+      font-size: 1.2rem;
+      padding: 0 20%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .hero-container{
+      height: 40rem;
+    }
+
+    .content-wrapper{
+      top: 38rem;
+    }
 }
