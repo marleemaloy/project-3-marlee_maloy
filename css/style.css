@@ -43,29 +43,20 @@ a{
   color: #30c0d8;
 }
 
+.brand-red{
+  color: #ff6952;
+}
+
 .is-white{
   color: white;
 }
 
 /*
---ICON TRANSFORM STYLES--
-*/
-
-
-
-
-
-
-/*
    -- LAYOUT STYLES --
  */
 
- .box {
-    padding: 1rem;
-}
-
-.box-lrg {
-    padding: 2rem;
+.box{
+  padding: 1rem;
 }
 
 .is-center {
@@ -102,32 +93,19 @@ a{
     border-radius: 8px;
     font-size: 1rem;
     text-transform: uppercase;
-    font-weight: 600;
-}
-/**/
-/**/
-/**/
-/*HAVING TROUBLE WITH TRANSFORM HERE*/
-/**/
-/**/
-/**/
-a.hero-button{
-  background: white;
-  color: #30C0D8;
-  transform: scale(1);
-  transition: background-color, transform .3s ease;
+    font-weight: 800;
 }
 
-a.call-to-action-button{
-  background: white;
-  color: #30C0D8;
-  padding: 0.5em .75em;
-
+.call-to-action-button{
+    background: #ff6952;
+    color: white;
+    padding: 0.5em .75em;
 }
 
-a.button:hover{
-  background-color: #f2f2f2;
-  transform: scale(2)
+.call-to-action-button:hover{
+    transition: background, color .3s ease;
+    background: white;
+    color: #ff6952;
 }
 
 
@@ -172,10 +150,10 @@ a.button:hover{
 
 
 .home-menu li a:hover,
-.home-menu li a:focus {
+.home-menu li a:focus,
+.home-menu li a:active {
     background: none;
-    border-bottom: 2px solid #30c0d8;
-    color: #FF6952;
+    border-top: 4px solid #FF6952;
 }
 
 /*
@@ -195,24 +173,23 @@ a.button:hover{
    display: flex;
    flex-direction: column;
    align-items: center;
-   padding-top: 3rem;
+   padding-top: 3.5rem
  }
 
  .hero-head{
    color: white;
-   border: 3px solid white;
-   padding: .8em;
-   font-weight: 100;
-   border-radius: 5px;
+   font-weight: 600;
    text-transform: uppercase;
-   font-size: 1.5em;
+   font-size: 2.25em;
+   margin-bottom: 0;
+   line-height: 1.25;
  }
 
  .hero-subhead{
    color: white;
-   font-weight: 400;
+   font-weight: 600;
    letter-spacing: 0.03em;
-   font-size: 1rem;
+   font-size: 1.2rem;
    padding-left: 7%;
    padding-right: 7%;
  }
@@ -231,7 +208,7 @@ a.button:hover{
 }
 
 .content-box{
-  padding: 3rem 0;
+  padding: 3rem 0 1rem 0;
 }
 
 .content-head{
@@ -241,6 +218,14 @@ a.button:hover{
 .content-subhead i {
   margin-right: 7px;
 }
+
+footer{
+  padding: .75rem;
+}
+
+/*
+--HOME PAGE--
+*/
 
 .ribbon {
     background: #34495e;
@@ -265,9 +250,36 @@ a.button:hover{
 
 .call-to-action h3{
     color: white;
-    font-weight: 300;
+    font-weight: 800;
     font-size: 1.65rem;
 }
+
+/*
+--ABOUT PAGE--
+*/
+
+.about-us .content-head{
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+}
+
+.our-principles .content-head{
+  padding-left: 1rem;
+}
+
+.team-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.team-sub{
+  margin: 1em .5em;
+  max-width: 275px;
+}
+
 
 /*
 --SOCIAL ICONS INSIDE FOOTER--
@@ -299,18 +311,18 @@ a.button:hover{
   }
 
   .content-box{
-    padding: 5rem 0;
+    padding: 4rem 0;
   }
 
   .home-menu{
     flex-direction: row;
     justify-content: flex-end;
-    padding-right:  1.5rem;
+    padding-right:  5rem;
   }
 
   .menu-logo{
     margin-right: auto;
-    padding-left: 1.5rem;
+    padding-left: 5rem;
   }
 
   .menu-link{
@@ -323,18 +335,13 @@ a.button:hover{
   }
 
   .hero-head{
-    font-size: 2.5rem;
-    padding: .9em;
+    font-size: 3.5rem;
+    padding: .9em .2em .5em .18em;
   }
 
   .hero-subhead{
     font-size: 1.5rem;
     margin-top: 0;
-  }
-
-  a.hero-button{
-    padding: .85em 1.5em;
-    font-size: 1.05em;
   }
 
   .content-wrapper{
@@ -343,6 +350,18 @@ a.button:hover{
 
   .content-head{
     font-size: 1.85rem;;
+  }
+
+  .content-subhead{
+
+  }
+
+  .about-us .content-head{
+    font-size: 1.8rem;
+  }
+
+  .our-principles .content-head{
+    font-size: 1.8rem;
   }
 
   .our-specialties{
@@ -372,6 +391,10 @@ a.button:hover{
     max-width: 45%;
   }
 
+  .call-to-action{
+    padding: 3rem 1rem;
+  }
+
 }
 
 @media screen and (min-width: 800px) {
@@ -392,6 +415,17 @@ a.button:hover{
       font-size: 1.2rem;
       padding: 0 20%;
     }
+}
+
+@media screen and (min-width: 1000px) {
+  .hero-head{
+    font-size: 5rem;
+    padding: .5em .2em .5em .18em;
+  }
+
+  .hero-subhead{
+    font-size: 2rem;
+  }
 }
 
 @media screen and (min-width: 1200px){
