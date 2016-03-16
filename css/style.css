@@ -88,25 +88,13 @@ a{
  */
 
 
-.button {
+/*.button {
     padding: 0.5em 2em;
     border-radius: 8px;
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: 800;
-}
-
-.call-to-action-button{
-    background: #ff6952;
-    color: white;
-    padding: 0.5em .75em;
-}
-
-.call-to-action-button:hover{
-    transition: background, color .3s ease;
-    background: white;
-    color: #ff6952;
-}
+}*/
 
 
 /*
