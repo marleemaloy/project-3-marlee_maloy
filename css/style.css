@@ -263,10 +263,6 @@ footer{
   padding-bottom: 2rem;
 }
 
-.our-principles .content-head{
-  padding-left: 1rem;
-}
-
 .team-section{
   display: flex;
   flex-wrap: wrap;
@@ -275,9 +271,22 @@ footer{
 
 }
 
+.about-us img{
+  border-radius: 50%;
+  border: 2px solid #34495e;
+}
+
 .team-sub{
   margin: 1em .5em;
   max-width: 275px;
+}
+
+.team-sub .content-subhead{
+  font-size: 1.2rem;
+}
+
+.our-principles .content-head{
+  padding-left: 1rem;
 }
 
 .principles-section{
@@ -294,12 +303,12 @@ footer{
 
 .principles-text .content-subhead{
   font-size: 1.2rem;
+  margin: 0;
 }
 
 .principles-img img{
-  border: 2px solid #ff6952;
+  border: 2px solid #34495e;
 }
-
 
 
 /*
@@ -416,6 +425,44 @@ footer{
     padding: 3rem 1rem;
   }
 
+}
+
+@media screen and (min-width: 700px){
+  /*CHANGING THE LAYOUT OF OUR PRINCIPLES SECTION on the ABOUT PAGE*/
+
+  .principles-section{
+    display: flex;
+    flex-direction: column;
+    padding-left: .7rem;
+    padding-right: .7rem;
+  }
+
+  .principles-sub{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .principles-sub.odd-sub{
+    flex-direction: row-reverse;
+  }
+
+  .principles-img{
+    max-width: 38%;
+  }
+
+  .principles-text{
+    max-width: 52%;
+  }
+
+  .principles-text .content-subhead,
+  .team-sub .content-subhead{
+    font-size: 1.4rem;
+  }
+
+  .principles-text p,
+  .team-sub p{
+    font-size: 1.25rem;
+  }
 }
 
 @media screen and (min-width: 800px) {
