@@ -88,14 +88,6 @@ a{
  */
 
 
-/*.button {
-    padding: 0.5em 2em;
-    border-radius: 8px;
-    font-size: 1rem;
-    text-transform: uppercase;
-    font-weight: 800;
-}*/
-
 
 /*
   -- MENU STYLES --
@@ -196,7 +188,7 @@ a{
 }
 
 .content-box{
-  padding: 3rem 0 1rem 0;
+  padding: 3rem 0;
 }
 
 .content-head{
@@ -294,10 +286,6 @@ footer{
   margin: 0;
 }
 
-.principles-img img{
-  border: 2px solid #34495e;
-}
-
 
 /*
 --SOCIAL ICONS INSIDE FOOTER--
@@ -329,7 +317,7 @@ footer{
   }
 
   .content-box{
-    padding: 4rem 0 1rem 0;
+    padding: 4rem 0;
   }
 
   .home-menu{
@@ -368,10 +356,6 @@ footer{
 
   .content-head{
     font-size: 1.85rem;;
-  }
-
-  .content-subhead{
-
   }
 
   .about-us .content-head{
@@ -413,9 +397,6 @@ footer{
     padding: 3rem 1rem;
   }
 
-}
-
-@media screen and (min-width: 700px){
   /*CHANGING THE LAYOUT OF OUR PRINCIPLES SECTION on the ABOUT PAGE*/
 
   .principles-section{
@@ -427,7 +408,7 @@ footer{
 
   .principles-sub{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .principles-sub.odd-sub{
@@ -440,6 +421,9 @@ footer{
 
   .principles-text{
     max-width: 52%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .principles-text .content-subhead,
