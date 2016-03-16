@@ -280,6 +280,27 @@ footer{
   max-width: 275px;
 }
 
+.principles-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.principles-sub{
+  margin: 1em .5em;
+  max-width: 100%;
+}
+
+.principles-text .content-subhead{
+  font-size: 1.2rem;
+}
+
+.principles-img img{
+  border: 2px solid #ff6952;
+}
+
+
 
 /*
 --SOCIAL ICONS INSIDE FOOTER--
@@ -311,7 +332,7 @@ footer{
   }
 
   .content-box{
-    padding: 4rem 0;
+    padding: 4rem 0 1rem 0;
   }
 
   .home-menu{
