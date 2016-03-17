@@ -68,20 +68,56 @@ a{
    -- FORM STYLES --
  */
 
-.pure-form label {
-    margin: 1em 0 0;
-    font-weight: bold;
+ #contact{
+   padding:2rem;
+ }
+
+ fieldset{
+   border: none;
+ }
+
+ .label{
+    margin: 1rem 0 0;
+    font-weight: semibold;
     font-size: 100%;
 }
 
-.pure-form input[type] {
+  .textarea{
+    height: 10rem;
+}
+
+ .input {
     border: 2px solid #ddd;
+    border-radius: 5px;
     box-shadow: none;
     font-size: 100%;
     width: 100%;
     margin-bottom: 1em;
 }
 
+  .input:focus{
+  outline: none;
+  border: 2px solid #30c0d8;
+}
+
+  .drop-down{
+  background-color: #30c0d8;
+  color: white;
+}
+
+.drop-down:focus{
+  outline: none;
+  border: 2px solid #34495e;
+}
+
+#contact-submit{
+  color: white;
+  background-color: #34495e;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+  padding: .45rem .8rem;
+}
 
 /*
    -- BUTTON STYLES --
@@ -128,19 +164,31 @@ a{
     font-weight: 600;
 }
 
+.home-menu li a:link{
 
-.home-menu li a:hover,
-.home-menu li a:focus,
-.home-menu li a:active {
+}
+
+.home-menu li a:visited{
+
+}
+
+.home-menu li a:hover {
+    padding-bottom: 4px;
     background: none;
-    border-top: 4px solid #FF6952;
+    border-bottom: 2px solid #34495e;
+}
+
+.active {
+    padding-bottom: 4px;
+    background: none;
+    border-bottom: 2px solid #34495e;
 }
 
 /*
   -- HERO STYLES --
  */
  .hero-container{
-   background: #30C0D8;
+   background: #30c0d8;
    z-index: 1;
    overflow: hidden;
    width: 100%;
@@ -224,7 +272,7 @@ footer{
 }
 
 .call-to-action {
-  background: #30C0D8;
+  background: url(../img/about/sunrise.jpg) center center;
   padding: 2rem;
 }
 
@@ -253,7 +301,11 @@ footer{
 
 .about-us img{
   border-radius: 50%;
-  border: 2px solid #34495e;
+  border: 8px solid #34495e;
+}
+
+.about-us.content-box{
+  padding-top: 0;
 }
 
 .team-sub{
@@ -286,6 +338,16 @@ footer{
   margin: 0;
 }
 
+.global-background{
+  background: url(../img/about/night.png) center center;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+}
+
+.global-text{
+  padding: 1rem 3rem;
+}
 
 /*
 --SOCIAL ICONS INSIDE FOOTER--
@@ -404,6 +466,7 @@ footer{
     flex-direction: column;
     padding-left: .7rem;
     padding-right: .7rem;
+    padding-top: 2rem;
   }
 
   .principles-sub{
@@ -435,6 +498,10 @@ footer{
   .team-sub p{
     font-size: 1.25rem;
   }
+
+  .global-text{
+    font-size: 1.8rem;
+  }
 }
 
 @media screen and (min-width: 800px) {
@@ -454,6 +521,10 @@ footer{
     .p-ribbon{
       font-size: 1.2rem;
       padding: 0 20%;
+    }
+
+    .global-text{
+      padding: 1rem 6rem;
     }
 }
 

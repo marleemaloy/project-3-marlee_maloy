@@ -23,11 +23,56 @@
     </header>
     <section class="hero-container">
       <div class="hero-content">
-        <h1 class="hero-head is-center">How to reach us</h1>
+        <h1 class="hero-head is-center">Get in t<span class="brand-red">o</span>uch</h1>
           <p class="hero-subhead is-center">
-            Listen to your <i class="fa fa-heart brand-red faa-pulse animated"></i>
+            And let's do something great together
           </p>
       </div>
     </section>
+    <div class="content-wrapper">
+      <section class="primary-content content-box">
+        <div class="contact-form">
+          <form id="contact" action="" method="post">
+            <h3 class="content-subhead is-center">Contact us</h3>
+            <p class="is-center"> Whether you're interested in becoming a partner,
+            requesting a demonstration of our software,
+            or simply want to learn more, we're just a click away.</p>
+            <fieldset>
+              <label for="Your name:" class="label">
+                <h4>Your name:</h4>
+                <input class="input" placeholder="First and last please" type="text" tabindex="1" required autofocus>
+              </label>
+
+              <label for="email" class="label">
+                <h4>Your email:</h4>
+                <input class="input" placeholder="Company email please" type="email" tabindex="2" required>
+              </label>
+
+              <label for="phone" class="label">
+                <h4>Your phone number:</h4>
+                <input class="input" placeholder="" type="tel" tabindex="3">
+              </label>
+              <label for="reason" class="label">
+                <h4>Reason for reaching out:</h4>
+                <select class="drop-down">
+                   <option value="general">General Enquiry</option>
+                   <option value="partner">Partnership Enquiry</option>
+                   <option value="technical">Technical Questions</option>
+                   <option value="feedback">Customer Feedback</option>
+                   <option value="criticism">Constructive Criticism</option>
+                </select>
+              </label>
+            <label for="message" class="label">
+              <h4>Your message:</h4>
+              <textarea class="input textarea" placeholder="What's on your mind?" tabindex="4" required></textarea>
+            </label>
+              <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </div>
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
