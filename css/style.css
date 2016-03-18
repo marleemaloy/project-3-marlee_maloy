@@ -35,19 +35,19 @@ label {
 	     url(web-fonts/opensans-reg/'OpenSans-Regular-webfont.svg#webfont') format('svg');
 }
 
-a{
+  a{
   text-decoration: none;
 }
 
-.brand-blue{
+  .brand-blue{
   color: #30c0d8;
 }
 
-.brand-red{
+  .brand-red{
   color: #ff6952;
 }
 
-.is-white{
+  .is-white{
   color: white;
 }
 
@@ -55,11 +55,11 @@ a{
    -- LAYOUT STYLES --
  */
 
-.box{
+  .box{
   padding: 1rem;
 }
 
-.is-center {
+  .is-center {
     text-align: center;
 }
 
@@ -68,25 +68,25 @@ a{
    -- FORM STYLES --
  */
 
- #contact{
+   #contact{
    padding:2rem;
  }
 
- fieldset{
+   fieldset{
    border: none;
  }
 
- .label{
+   .label{
     margin: 1rem 0 0;
     font-weight: semibold;
     font-size: 100%;
 }
 
-  .textarea{
+   .textarea{
     height: 10rem;
 }
 
- .input {
+   .input {
     border: 2px solid #ddd;
     border-radius: 5px;
     box-shadow: none;
@@ -95,41 +95,44 @@ a{
     margin-bottom: 1em;
 }
 
-  .input:focus{
-  outline: none;
-  border: 2px solid #30c0d8;
+   .input:focus{
+    outline: none;
+    border: 2px solid #30c0d8;
 }
 
-  .drop-down{
-  background-color: #30c0d8;
-  color: white;
+   .drop-down{
+   background-color: #30c0d8;
+   color: white;
 }
 
-.drop-down:focus{
-  outline: none;
-  border: 2px solid #34495e;
+   .drop-down:focus{
+   outline: none;
+   border: 2px solid #34495e;
 }
 
-#contact-submit{
-  color: white;
-  background-color: #34495e;
-  font-weight: 600;
-  border-radius: 5px;
-  border: none;
-  padding: .45rem .8rem;
-}
 
 /*
    -- BUTTON STYLES --
  */
 
+   #contact-submit{
+   color: white;
+   background-color: #34495e;
+   font-weight: 600;
+   border-radius: 5px;
+   border: none;
+   padding: .45rem .8rem;
+}
 
+    #contact-submit:hover{
+
+}
 
 /*
   -- MENU STYLES --
  */
 
-.home-menu {
+  .home-menu {
   padding: 0.5em;
   box-shadow: 0 0 2px rgba(6,8,8,0.15);
   background: white;
@@ -141,44 +144,44 @@ a{
   top: 0;
 }
 
-.menu-list{
+  .menu-list{
   list-style-type: none;
   display: flex;
   padding-left: 0;
 }
 
-.menu-item{
+  .menu-item{
   margin: 0 15px;
 }
 
 
-.home-menu-fixed {
+  .home-menu-fixed {
     border-bottom: none;
     /* I need a higher z-index here because of the scroll-over effect. */
     z-index: 4;
 }
 
-.menu-link {
+  .menu-link {
     color: #34495e;
     font-size: 1rem;
     font-weight: 600;
 }
 
-.home-menu li a:link{
+  .home-menu li a:link{
 
 }
 
-.home-menu li a:visited{
+  .home-menu li a:visited{
 
 }
 
-.home-menu li a:hover {
+  .home-menu li a:hover {
     padding-bottom: 4px;
     background: none;
     border-bottom: 2px solid #34495e;
 }
 
-.active {
+  .active {
     padding-bottom: 4px;
     background: none;
     border-bottom: 2px solid #34495e;
@@ -188,7 +191,7 @@ a{
   -- HERO STYLES --
  */
  .hero-container{
-   background: #30c0d8;
+   background: #34495e;
    z-index: 1;
    overflow: hidden;
    width: 100%;
@@ -226,7 +229,7 @@ a{
   -- CONTENT STYLES --
  * This represents the content area (everything below the hero section)
  */
-.content-wrapper {
+ .content-wrapper {
     /* These styles are for the "scroll-over" effect */
     position: absolute;
     top: 30rem;
@@ -235,19 +238,19 @@ a{
     background: white;
 }
 
-.content-box{
-  padding: 3rem 0;
+ .content-box{
+  padding: 3rem 0 1rem 0;
 }
 
-.content-head{
+ .content-head{
   font-weight: 400;
 }
 
-.content-subhead i {
+ .content-subhead i {
   margin-right: 7px;
 }
 
-footer{
+ footer{
   padding: .75rem;
 }
 
@@ -255,28 +258,28 @@ footer{
 --HOME PAGE--
 */
 
-.ribbon {
+ .ribbon {
     background: #34495e;
 }
 
-.content-head-ribbon {
+ .content-head-ribbon {
     color: white;
     font-weight: 100;
 }
 
-.p-ribbon{
+ .p-ribbon{
   color: white;
   font-weight: 400;
   font-size: 1.01rem;
   padding: 0 10%;
 }
 
-.call-to-action {
-  background: url(../img/about/sunrise.jpg) center center;
+ .call-to-action {
+  background: #30c0d8;
   padding: 2rem;
 }
 
-.call-to-action h3{
+ .call-to-action h3{
     color: white;
     font-weight: 800;
     font-size: 1.65rem;
@@ -286,12 +289,12 @@ footer{
 --ABOUT PAGE--
 */
 
-.about-us .content-head{
+ .about-us .content-head{
   padding-left: 1rem;
   padding-bottom: 2rem;
 }
 
-.team-section{
+ .team-section{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -299,70 +302,109 @@ footer{
 
 }
 
-.about-us img{
+ .about-us img{
   border-radius: 50%;
   border: 8px solid #34495e;
 }
 
-.about-us.content-box{
+ .about-us.content-box{
   padding-top: 0;
 }
 
-.team-sub{
+ .team-sub{
   margin: 1em .5em;
   max-width: 275px;
 }
 
-.team-sub .content-subhead{
+ .team-sub .content-subhead{
   font-size: 1.2rem;
 }
 
-.our-principles .content-head{
+ .our-principles .content-head{
   padding-left: 1rem;
 }
 
-.principles-section{
+ .principles-section{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
 
-.principles-sub{
+ .principles-sub{
   margin: 1em .5em;
   max-width: 100%;
 }
 
-.principles-text .content-subhead{
+ .principles-text .content-subhead{
   font-size: 1.2rem;
   margin: 0;
 }
 
-.global-background{
+ .global-background{
   background: url(../img/about/night.png) center center;
   height: 40rem;
   display: flex;
   align-items: center;
 }
 
-.global-text{
+ .global-text{
   padding: 1rem 3rem;
+}
+
+/*
+--CONTACT PAGE--
+*/
+  .contact-info .content-subhead{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .contact-text h5{
+    margin-bottom: 0;
+    margin-top: .55rem;
+  }
+
+ .contact-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ .contact-sub{
+  margin: 1em .5em;
+  max-width: 100%;
+}
+
+ .contact-text p{
+  margin: 0;
+}
+
+ .contact-text a{
+  color: #30c0d8;
+  font-weight: 600;
+}
+
+ .contact-text a:hover{
+  padding-bottom: 4px;
+  border-bottom: 2px solid #34495e;
 }
 
 /*
 --SOCIAL ICONS INSIDE FOOTER--
 */
 
-.social-icons i{
+ .social-icons i{
   margin: 0 8px;
 }
 
-.social-icons a{
+ .social-icons a{
   color: #666;
 }
 
-.social-icons a:hover,
-.social-icons a:focus{
+ .social-icons a:hover,
+ .social-icons a:focus{
   color: #34495e;
 }
 
@@ -502,6 +544,52 @@ footer{
   .global-text{
     font-size: 1.8rem;
   }
+
+/*CHANGING LAYOUT FOR CONTACT INFORMATION SECTION ON CONTACT PAGE*/
+
+
+  .contact-info p{
+    font-size: 1.25rem;
+}
+
+  .contact-section{
+    display: flex;
+    flex-direction: column;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    padding-top: 2rem;
+  }
+
+  .contact-sub{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .contact-sub.odd-sub{
+    flex-direction: row-reverse;
+  }
+
+  .contact-img{
+      max-width: 46%;
+      align-self: center;
+  }
+
+  .contact-text{
+    max-width: 52%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contact-text p{
+    font-size: 1rem;
+  }
+
+  .contact-info .content-subhead{
+    font-size: 1.4rem;
+  }
+
 }
 
 @media screen and (min-width: 800px) {
@@ -525,6 +613,22 @@ footer{
 
     .global-text{
       padding: 1rem 6rem;
+    }
+
+    .contact-text p{
+      font-size: 1.04rem;
+    }
+
+    .contact-info .content-subhead{
+      font-size: 1.6rem;
+    }
+
+    .contact-text h5{
+      font-size: 1.16rem;
+    }
+
+    .contact-p{
+      padding: 0 20%;
     }
 }
 
