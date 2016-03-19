@@ -12,4 +12,9 @@ $(function() {
             $(this).closest("a").addClass("active");
         }
     });
+
+    // fades in content in hero headers
+    $(".hero-content").hide();
+    $(".hero-content").fadeIn();
+
 });
