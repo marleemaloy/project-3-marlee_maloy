@@ -12,7 +12,7 @@
   </head>
   <body>
     <header class="header">
-      <nav class="home-menu home-menu-fixed">
+      <nav class="home-menu home-menu-fixed nav-down">
         <a class="menu-logo brand-blue" href="index.html"><img src="img/lookout-logo-small.png" alt="LookOut Software Logo"></a>
           <ul class="menu-list">
               <li class="menu-item"><a href="index.html" class="menu-link">Home</a></li>
@@ -79,62 +79,69 @@
               </div>
             </div>
           </div>
-          <div class="contact-form">
-            <form id="contact" action="" method="post">
-              <h3 class="is-center content-subhead">Get in touch with us</h3>
-              <fieldset>
-                <label for="Your name:" class="label">
-                  <h4>Your name:</h4>
-                  <input class="input" placeholder="First and last please" type="text" tabindex="1" required>
-                </label>
+             <section class="contact-form clearfix">
+               <div class="form-wrapper">
+                 <form id="contact" action="" method="post">
+                   <h2 class="is-center content-head">Start the conversation</h2>
+                     <fieldset>
+                       <label for="Your name:" class="label">
+                        <h4>Your name:</h4>
+                        <input class="input" placeholder="First and last please" type="text" tabindex="1" required>
+                       </label>
 
-                <label for="email" class="label">
-                  <h4>Your email:</h4>
-                  <input class="input" placeholder="Company email please" type="email" tabindex="2" required>
-                </label>
+                       <label for="email" class="label">
+                         <h4>Your email:</h4>
+                         <input class="input" placeholder="Company email please" type="email" tabindex="2" required>
+                       </label>
 
-                <label for="phone" class="label">
-                  <h4>Your phone number:</h4>
-                  <input class="input" placeholder="" type="tel" tabindex="3">
-                </label>
-                <label for="reason" class="label">
-                  <h4>Reason for reaching out:</h4>
-                  <select class="drop-down">
-                      <option value="general">General Enquiry</option>
-                      <option value="partner">Partnership Enquiry</option>
-                      <option value="technical">Technical Questions</option>
-                      <option value="feedback">Customer Feedback</option>
-                      <option value="criticism">Constructive Criticism</option>
-                  </select>
-                </label>
-                <label for="message" class="label">
-                  <h4>Your message:</h4>
-                  <textarea class="input textarea" placeholder="What's on your mind?" tabindex="4" required></textarea>
-                </label>
-                  <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-                </fieldset>
-              </form>
-            </div>
-        </section>
-
-      <footer class="footer box is-center">
-        <div class="copyright">
-          &copy; 2016 LookOut Software
-        </div>
-        <div class="social-icons">
-          <a href="https://www.facebook.com/sharepointflex/">
-            <i class="fa fa-facebook"></i></a>
-          <a href="https://twitter.com/sharepointflex">
-            <i class="fa fa-twitter"></i></a>
-          <a href="https://www.linkedin.com/company/sharepoint-flex">
-            <i class="fa fa-linkedin"></i></a>
-          <a href="https://www.youtube.com/channel/UCQtfakxqDGcF2nVwMxcNP-A">
-            <i class="fa fa-youtube"></i></a>
-          <a href="https://plus.google.com/u/0/109724129089948785521/about">
-            <i class="fa fa-google-plus"></i></a>
-      </div>
-      </footer>
-    </div>
+                       <label for="phone" class="label">
+                         <h4>Your phone number:</h4>
+                         <input class="input" placeholder="" type="tel" tabindex="3">
+                       </label>
+                      <label for="reason" class="label">
+                        <h4>Reason for reaching out:</h4>
+                        <select class="drop-down">
+                            <option value="general">General Enquiry</option>
+                            <option value="partner">Partnership Enquiry</option>
+                            <option value="technical">Technical Questions</option>
+                            <option value="feedback">Customer Feedback</option>
+                            <option value="criticism">Constructive Criticism</option>
+                        </select>
+                      </label>
+                      <label for="message" class="label">
+                        <h4>Your message:</h4>
+                        <textarea class="input textarea" placeholder="What's on your mind?" tabindex="4" required></textarea>
+                      </label>
+                      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                    </fieldset>
+                  </form>
+               </div>
+              </section>
+              <section class="google-maps">
+                <h2 class="content-head is-center">Find us on the map</h2>
+                  <div class='embed-container'>
+                    <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2602.615018662726!2d-123.11425414911156!3d49.28369167923005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54867178f9776779%3A0x13b2af8a0ca5e09!2s422+Richards+St%2C+Vancouver%2C+BC+V6B+2Z4!5e0!3m2!1sen!2sca!4v1456712949507' width='600' height='450' frameborder='0' style='border:0' allowfullscreen></iframe>
+                  </div>
+              </section>
+              <footer class="footer box is-center">
+                <div class="copyright">
+                  &copy; 2016 LookOut Software
+                </div>
+                <div class="social-icons">
+                  <a href="https://www.facebook.com/sharepointflex/">
+                    <i class="fa fa-facebook"></i></a>
+                  <a href="https://twitter.com/sharepointflex">
+                    <i class="fa fa-twitter"></i></a>
+                  <a href="https://www.linkedin.com/company/sharepoint-flex">
+                    <i class="fa fa-linkedin"></i></a>
+                  <a href="https://www.youtube.com/channel/UCQtfakxqDGcF2nVwMxcNP-A">
+                    <i class="fa fa-youtube"></i></a>
+                  <a href="https://plus.google.com/u/0/109724129089948785521/about">
+                    <i class="fa fa-google-plus"></i></a>
+              </div>
+            </footer>
+          </div>
+     </section>
     <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script type="text/javascript" src="main.js"></script>
   </body>
