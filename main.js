@@ -12,8 +12,11 @@ $(function() {
       var lastScrollTop = 0;
       var delta = 5;
       var navbarHeight = $('.home-menu').outerHeight();
+      var $window = $(window);
+      var $homeMenu = $('.home-menu');
+      var $document = $(document);
 
-      $(window).scroll(function(event){
+      $window.scroll(function(event){
           didScroll = true;
       });
 
@@ -25,25 +28,25 @@ $(function() {
       }, 250);
 
       function hasScrolled() {
-          var st = $(this).scrollTop();
+          var currentPosition = $(this).scrollTop();
 
           // Make sure they scroll more than delta
-          if(Math.abs(lastScrollTop - st) <= delta)
+          if(Math.abs(lastScrollTop - currentPosition) <= delta)
               return;
 
           // If they scrolled down and are past the navbar, add class .nav-up.
           // This is necessary so you never see what is "behind" the navbar.
-          if (st > lastScrollTop && st > navbarHeight){
+          if (currentPosition > lastScrollTop && currentPosition > navbarHeight){
               // Scroll Down
-              $('.home-menu').removeClass('nav-down').addClass('nav-up');
+              $homeMenu.removeClass('nav-down').addClass('nav-up');
           } else {
               // Scroll Up
-              if(st + $(window).height() < $(document).height()) {
-                  $('.home-menu').removeClass('nav-up').addClass('nav-down');
+              if(currentPosition + $window.height() < $document.height()) {
+                  $homeMenu.removeClass('nav-up').addClass('nav-down');
               }
           }
 
-          lastScrollTop = st;
+          lastScrollTop = currentPosition;
       }
     });
   });

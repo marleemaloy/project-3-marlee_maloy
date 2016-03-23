@@ -201,12 +201,31 @@ label {
   -- HERO STYLES --
  */
  .hero-container{
+   background-color: #30c0d8; /*fall back color in case browser doesn't support gradients*/
    background-image: -webkit-linear-gradient(
-   30deg,       /* direction */
-   #30c0d8 0%,   /* first colour stop */
-   #70d4e4 47%,  /* second colour stop */
-   #30c0d8 100%  /* third colour stop */
-);
+   30deg,
+   #30c0d8 0%,
+   #70d4e4 47%,
+   #30c0d8 100%
+   );
+   background-image: -moz-linear-gradient(
+   30deg,
+   #30c0d8 0%,
+   #70d4e4 47%,
+   #30c0d8 100%
+   );
+   background-image: -o-linear-gradient(
+   30deg,
+   #30c0d8 0%,
+   #70d4e4 47%,
+   #30c0d8 100%
+   );
+   background-image: linear-gradient(
+   30deg,
+   #30c0d8 0%,
+   #70d4e4 47%,
+   #30c0d8 100%
+   );
    z-index: 1;
    overflow: hidden;
    width: 100%;
@@ -291,13 +310,32 @@ label {
 }
 
  .call-to-action {
+   background-color: #30c0d8; /*fall back color in case browser doesn't support gradients*/
    background-image: -webkit-linear-gradient(
-   30deg,       /* direction */
-   #30c0d8 0%,   /* first colour stop */
-   #70d4e4 47%,  /* second colour stop */
-   #30c0d8 100%  /* third colour stop */
-);
-  padding: 2rem;
+   30deg,
+   #30c0d8 0%,
+   #70d4e4 47%,
+   #30c0d8 100%
+   );
+   background-image: -moz-linear-gradient(
+   30deg,
+   #30c0d8 0%,
+   #70d4e4 47%,
+   #30c0d8 100%
+   );
+   background-image: -o-linear-gradient(
+   30deg,
+   #30c0d8 0%,
+   #70d4e4 47%,
+   #30c0d8 100%
+   );
+   background-image: linear-gradient(
+   30deg,
+   #30c0d8 0%,
+   #70d4e4 47%,
+   #30c0d8 100%
+   );
+   padding: 2rem;
 }
 
  .call-to-action h3{
@@ -518,7 +556,7 @@ label {
   }
 
   .content-head{
-    font-size: 1.85rem;;
+    font-size: 1.85rem;
   }
 
   .about-us .content-head{
@@ -532,9 +570,17 @@ label {
   .our-specialties{
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: space-around;
     list-style: none;
     padding-left: 0;
+  }
+
+  .specialty-item{
+    margin: 1em .5em;
+    /*have to add a specific width here to pick up support in safari
+    for the row wrap on parent element .our-specialties*/
+    width: 45%;
+    max-width: 45%;
   }
 
   .p-ribbon{
@@ -543,17 +589,6 @@ label {
 
   .content-head-ribbon{
     margin-bottom: 0;
-  }
-
-  .our-specialties{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
-  .specialty-item{
-    margin: 1em .5em;
-    max-width: 45%;
   }
 
   .call-to-action{
