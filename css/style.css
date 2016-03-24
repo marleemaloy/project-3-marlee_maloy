@@ -376,6 +376,10 @@ label {
   align-items: center;
   }
 
+  .flex-logo-wrapper{
+    padding: 0 2.5rem;
+  }
+
   .about-page-content-head{
     font-size: 1.5rem;
   }
