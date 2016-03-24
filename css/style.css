@@ -51,6 +51,14 @@ label {
   color: white;
 }
 
+  .flex-blue{
+  color: #3fa9f5;
+}
+
+.is-bold{
+  font-weight: 600;
+}
+
 /*
    -- LAYOUT STYLES --
  */
@@ -123,22 +131,37 @@ label {
    -- BUTTON STYLES --
  */
 
-   #contact-submit{
-   color: white;
-   background-color: #34495e;
-   font-weight: 600;
-   border-radius: 5px;
-   border: 2px solid white;
-   padding: .45rem .8rem;
-   transition: background, color;
-   transition-duration: .5s;
+   .button{
+     font-weight: 600;
+     border-radius: 5px;
+     padding: .45rem .8rem;
+   }
 
-}
+  #contact-submit{
+    color: white;
+    background-color: #34495e;
+    border: 2px solid white;
+    transition: background, color;
+    transition-duration: .5s;
+  }
 
   #contact-submit:hover{
-   color: #34495e;
-   background-color: white;
-}
+    color: #34495e;
+    background-color: white;
+  }
+
+  #flex-button{
+    color: white;
+    background-color: #34495e;
+    border: 2px solid #34495e;
+    transition: background, color;
+    transition-duration: .5s;
+  }
+
+  #flex-button:hover{
+    color: #34495e;
+    background-color: white;
+  }
 
 /*
   -- MENU STYLES --
@@ -347,11 +370,19 @@ label {
 /*
 --ABOUT PAGE--
 */
+ .latest-project-sub{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  }
 
- .about-us .content-head{
-  padding-left: 1rem;
-  padding-bottom: 2rem;
-}
+  .flex-logo-wrapper{
+    padding: 0 2.5rem;
+  }
+
+  .about-page-content-head{
+    font-size: 1.5rem;
+  }
 
  .team-section{
   display: flex;
@@ -379,10 +410,6 @@ label {
   font-size: 1.2rem;
 }
 
- .our-principles .content-head{
-  padding-left: 1rem;
-}
-
  .principles-section{
   display: flex;
   flex-wrap: wrap;
@@ -408,7 +435,7 @@ label {
 }
 
  .global-text{
-  padding: 1rem 3rem;
+  padding: 1rem 1rem;
 }
 
 /*
@@ -630,8 +657,7 @@ label {
     font-size: 1.4rem;
   }
 
-  .principles-text p,
-  .team-sub p{
+  .about-page-p{
     font-size: 1.25rem;
   }
 
@@ -781,7 +807,7 @@ label {
       clear: both;
   }
 
-    .content-box-.contact-info{
+    .content-box.contact-info{
       padding: 4rem 0 0 0;
   }
 
