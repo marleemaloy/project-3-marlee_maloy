@@ -59,6 +59,11 @@ label {
   font-weight: 600;
 }
 
+.is-contained-in-600px{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 /*
    -- LAYOUT STYLES --
  */
@@ -217,7 +222,7 @@ label {
 }
 
   .nav-up{
-  top: -72px;
+    top: -72px;
 }
 
 /*
@@ -378,6 +383,7 @@ label {
 
   .flex-logo-wrapper{
     padding: 0 2.5rem;
+    max-width: 450px;
   }
 
   .about-page-content-head{
@@ -759,10 +765,6 @@ label {
     .contact-text h5{
       font-size: 1.16rem;
     }
-
-    .contact-p{
-      padding: 0 20%;
-    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -805,13 +807,24 @@ label {
     .google-maps{
       padding: 0rem 5rem;
       clear: both;
-  }
+    }
 
     .content-box.contact-info{
       padding: 4rem 0 0 0;
-  }
+    }
 
+    .latest-project-img{
+      width: 50%;
+      float: left;
+    }
 
+    .latest-project-sub{
+      padding-top: 4rem;
+    }
+
+    .flex-logo-wrapper{
+      padding: 0 4.5rem;
+    }
 }
 
 @media screen and (min-width: 1200px){
