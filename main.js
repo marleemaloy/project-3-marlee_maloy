@@ -2,10 +2,11 @@ $(function() {
     // this will get the full URL at the address bar
     var $pageURL = window.location.href;
     // passes on every anchor tag
-    $(".menu-list a").each(function() {
-        // checks if the active link is the same as on the address bar
+    $('.menu-list a').each(function() {
+        // checks if the active link is the same as the url in the address bar
         if ($pageURL == (this.href)) {
-            $(this).closest("a").addClass("active");
+          // adds the active class to the active a tag
+            $(this).closest('a').addClass('active');
         }
     });
 
