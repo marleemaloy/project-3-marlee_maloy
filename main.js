@@ -65,15 +65,4 @@ $(function() {
           lastScrollTop = currentPosition;
       }
 
-
-      // FUNCTION TO TOGGLE FORM
-
-  //     var $clicker = $('.clicker');
-  //     var $toggleForm = $('.form-toggle')
-   //
-   //
-  //     $clicker.on('click', function(){
-  //      $toggleForm.slideToggle('fast');
-  //  });
-
   });
