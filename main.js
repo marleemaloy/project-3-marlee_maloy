@@ -1,4 +1,8 @@
 $(function() {
+
+  //FUNCTION TO MAKE ACTIVE LINKS RETAIN A BLUE BORDER BOTTOM
+
+
     // this will get the full URL at the address bar
     var $pageURL = window.location.href;
     // passes on every anchor tag
@@ -13,7 +17,10 @@ $(function() {
 
 
 
-    // Hide Header on on scroll down, show on scroll up
+    // FUNCTION TO HIDE HEADER ON SCROLL DOWN AND SHOW ON SCROLL UP
+
+
+
       var didScroll;
       var lastScrollTop = 0;
       var delta = 5;
@@ -57,4 +64,5 @@ $(function() {
 
           lastScrollTop = currentPosition;
       }
+
   });
