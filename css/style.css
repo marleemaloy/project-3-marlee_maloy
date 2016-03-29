@@ -102,7 +102,7 @@ label {
 
    .label{
     margin: 1rem 0 0;
-    font-weight: semibold;
+    font-weight: 600;
     font-size: 100%;
 }
 
@@ -130,7 +130,6 @@ label {
    outline: none;
    border: 2px solid #30c0d8;
 }
-
 
 /*
    -- BUTTON STYLES --
@@ -183,7 +182,7 @@ label {
   position: fixed;
   width: 100%;
   top: 0;
-  transition: top 0.2s ease-in-out;
+  transition: top 0.3s ease-in-out;
 }
 
   .menu-list{
@@ -222,7 +221,7 @@ label {
 }
 
   .nav-up{
-    top: -72px;
+    top: -128px;
 }
 
 /*
@@ -259,7 +258,8 @@ label {
    width: 100%;
    position: fixed;
    height: 29rem;
-   padding: 1.15rem 0;
+   padding: 4.15rem .5rem;
+   top: 0;
  }
 
  .hero-content{
@@ -559,6 +559,10 @@ label {
     justify-content: flex-end;
     padding-right:  5rem;
   }
+
+  .nav-up{
+    top: -72px;
+}
 
   .menu-logo{
     margin-right: auto;
