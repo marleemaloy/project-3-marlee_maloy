@@ -65,4 +65,13 @@ $(function() {
           lastScrollTop = currentPosition;
       }
       
+      // FUNCTION USING EVENT DELEGATION TO CHECK IF A FORM HAS BEEN SUBMITTED AND
+      // INSTEAD OF SUBMITTING, DISPLAYING AN ALERT
+
+        $('#contact').on('click', 'button', function(event) {
+          // Stop the default behavior on the button click
+          event.preventDefault();
+          // alert user that we will be in touch shortly
+        alert('Thanks! We will be in touch shortly.');
+      });
   });
