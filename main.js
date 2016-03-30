@@ -67,10 +67,6 @@ $(function() {
 
 
 
-
-
-
-
       // FUNCTION USING EVENT DELEGATION TO CHECK IF A FORM HAS BEEN SUBMITTED AND
       // INSTEAD OF SUBMITTING, DISPLAYING AN ALERT
 
@@ -80,4 +76,12 @@ $(function() {
           // alert user that we will be in touch shortly
         alert('Thanks! We will be in touch shortly.');
       });
+
+
+
+      // INITIALIZING SCROLLORAMA
+
+      var scrollorama = $.scrollorama({
+      blocks:'.scrollblock'
+    });
   });
