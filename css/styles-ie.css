@@ -1,33 +1,15 @@
 /*Making the nav menu work for IE without Flexbox*/
 
-
-.menu-logo img{
-  margin: 0 auto;
-  display: block;
-}
-
-.menu-list{
-  padding-left: .5rem;
-  margin: 2rem auto;
-}
-
-.menu-item{
-  display: inline-block;
-  margin: 0px 20px;
-}
-
 @media screen and (min-width: 600px){
   .home-menu{
-    display: inline-block;
+    position: relative;
   }
 
   .menu-list{
-    float: right;
-  }
-
-  .menu-logo img{
-    margin-right: 1rem;
-    padding-right: 1rem;
+    position: absolute;
+    -ms-transform: translate(-50%, -50%);
+    left: 75%;
+    top: 25%;
   }
 
 }
