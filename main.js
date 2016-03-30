@@ -76,12 +76,4 @@ $(function() {
           // alert user that we will be in touch shortly
         alert('Thanks! We will be in touch shortly.');
       });
-
-
-
-      // INITIALIZING SCROLLORAMA
-
-      var scrollorama = $.scrollorama({
-      blocks:'.scrollblock'
-    });
   });
