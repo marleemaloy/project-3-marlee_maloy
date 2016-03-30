@@ -64,10 +64,6 @@ $(function() {
 
           lastScrollTop = currentPosition;
       }
-
-
-
-
       // FUNCTION USING EVENT DELEGATION TO CHECK IF A FORM HAS BEEN SUBMITTED AND
       // INSTEAD OF SUBMITTING, DISPLAYING AN ALERT
 
