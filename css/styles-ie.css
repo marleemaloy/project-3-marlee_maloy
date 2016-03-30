@@ -2,14 +2,14 @@
 
 @media screen and (min-width: 600px){
   .home-menu{
-    position: relative;
+    position: relative !important;
   }
 
   .menu-list{
-    position: absolute;
-    -ms-transform: translate(-50%, -50%);
-    left: 75%;
-    top: 25%;
+    position: absolute !important;
+    -ms-transform: translate(-50%, -50%) !important;
+    left: 75% !important;
+    top: 25%!important;
   }
 
 }
