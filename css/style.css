@@ -1,21 +1,4 @@
 /*Making the nav menu work for IE without Flexbox*/
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-/*IE10+ specific styles here*/
-  @media screen and (min-width: 600px){
-    .menu-list{
-      list-style-type: none;
-      padding-left: 0;
-      display; block;
-      position: absolute;
-      top: 10%;
-      right: 5%;
-    }
-
-    .menu-item{
-      display: inline-block;
-    }
-  }
-
 *{
   box-sizing: border-box;
 }
@@ -858,3 +841,20 @@ label {
       top: 38rem;
     }
 }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+/*IE10+ specific styles here*/
+  @media screen and (min-width: 600px){
+    .menu-list{
+      list-style-type: none;
+      padding-left: 0;
+      display; block;
+      position: absolute;
+      top: 10%;
+      right: 5%;
+    }
+
+    .menu-item{
+      display: inline-block;
+    }
+  }
