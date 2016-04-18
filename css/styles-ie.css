@@ -1,15 +1,16 @@
 /*Making the nav menu work for IE without Flexbox*/
 
 @media screen and (min-width: 600px){
-  .home-menu{
-    position: relative !important;
-  }
-
   .menu-list{
-    position: absolute !important;
-    -ms-transform: translate(-50%, -50%) !important;
-    left: 75% !important;
-    top: 25%!important;
+    list-style-type: none;
+    padding-left: 0;
+    display; block;
+    position: absolute;
+    top: 10%;
+    right: 5%;
   }
 
+  .menu-item{
+    display: inline-block;
+  }
 }
