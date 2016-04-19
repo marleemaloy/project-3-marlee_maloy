@@ -734,6 +734,19 @@ label {
     padding: 4rem 3rem;
   }
 
+  /*IE 10/11 SPECIFIC STYLES*/
+
+  _:-ms-input-placeholder, :root .menu-list{
+    display; block;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+  }
+
+  _:-ms-input-placeholder, :root .menu-item{
+    display: inline-block;
+  }
+
 }
 
 @media screen and (min-width: 800px) {
@@ -841,17 +854,3 @@ label {
       top: 38rem;
     }
 }
-
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-/*IE10+ specific styles here*/
-    .menu-list{
-      display; block;
-      position: absolute;
-      top: 10%;
-      right: 5%;
-    }
-
-    .menu-item{
-      display: inline-block;
-    }
-  }
