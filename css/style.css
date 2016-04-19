@@ -561,17 +561,13 @@ label {
     flex-direction: row;
     justify-content: flex-end;
     padding-right:  5rem;
+    height: 72px;
   }
 
-    _:-ms-input-placeholder, :root .menu-list{
-    display: block;
+    _:-ms-input-placeholder, :root .menu-logo{
     position: absolute;
     top: 10%;
-    right: 5%;
-  }
-
-  _:-ms-input-placeholder, :root .menu-item{
-    display: inline-block;
+    left: 5%;
   }
 
   .nav-up{
