@@ -26,14 +26,14 @@ label {
     height: auto;
 }
 
-@font-face{
+/*@font-face{
 	font-family:'Open Sans';
 	src: url(web-fonts/opensans-reg/'OpenSans-Regular-webfont.eot');
 	src: url(web-fonts/opensans-reg/'OpenSans-Regular-webfont?iefix') format('eot'),
 	     url(web-fonts/opensans-reg/'OpenSans-Regular-webfont.woff') format('woff'),
 	     url(web-fonts/opensans-reg/'OpenSans-Regular-webfont.ttf') format('truetype'),
 	     url(web-fonts/opensans-reg/'OpenSans-Regular-webfont.svg#webfont') format('svg');
-}
+}*/
 
   a{
   text-decoration: none;
