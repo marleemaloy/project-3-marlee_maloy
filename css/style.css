@@ -564,6 +564,11 @@ label {
     height: 72px;
   }
 
+  .menu-logo{
+    margin-right: auto;
+    padding-left: 5rem;
+  }
+
     _:-ms-input-placeholder, :root .menu-logo{
     position: absolute;
     top: 10%;
@@ -572,11 +577,6 @@ label {
 
   .nav-up{
     top: -72px;
-  }
-
-  .menu-logo{
-    margin-right: auto;
-    padding-left: 5rem;
   }
 
   .menu-link{
