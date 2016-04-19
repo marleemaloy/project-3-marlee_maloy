@@ -423,6 +423,13 @@ label {
   align-items: center;
 }
 
+ /*IE 11 SPECIFIC STYLING FOR PRINCICPLES SECTION*/
+
+ _:-ms-input-placeholder, :root .principles-section{
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
  .principles-sub{
   margin: 1em .5em;
   max-width: 100%;
@@ -568,7 +575,7 @@ label {
     padding-left: 5rem;
   }
 
-  /*IE SPECIFIC STYLING FOR MENU*/
+  /*IE 11 SPECIFIC STYLING FOR MENU*/
     _:-ms-input-placeholder, :root .menu-logo{
     position: absolute;
     top: 10%;
@@ -679,6 +686,12 @@ label {
 
   .about-page-p{
     font-size: 1.25rem;
+  }
+
+  /*IE SPECIFIC STYLING FOR ABOUT PAGE PARAGRAPHS*/
+  _:-ms-input-placeholder, :root .about-page-p{
+    max-width: 550px;
+    margin: 0 auto;
   }
 
   .global-text{
