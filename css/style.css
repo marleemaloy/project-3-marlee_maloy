@@ -1,4 +1,3 @@
-/*Making the nav menu work for IE without Flexbox*/
 *{
   box-sizing: border-box;
 }
@@ -547,7 +546,7 @@ label {
 
 @media screen and (min-width: 600px) {
   body{
-    /*The menu height changes at this breakpoint.*/
+    /*The menu height changes at this breakpoint*/
     padding-top: 0;
   }
 
@@ -556,8 +555,8 @@ label {
   }
 
   .home-menu{
-    -ms-flex-direction: row;
-    -ms-justify-content: flex-end;
+    -ms-flex-direction: row; /*VENDOR PREFIXES FOR IE 10*/
+    -ms-justify-content: flex-end; /*VENDOR PREFIXES FOR IE 10*/
     flex-direction: row;
     justify-content: flex-end;
     padding-right:  5rem;
@@ -569,6 +568,7 @@ label {
     padding-left: 5rem;
   }
 
+  /*IE SPECIFIC STYLING FOR MENU*/
     _:-ms-input-placeholder, :root .menu-logo{
     position: absolute;
     top: 10%;
