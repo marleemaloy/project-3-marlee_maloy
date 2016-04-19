@@ -737,7 +737,7 @@ label {
   /*IE 10/11 SPECIFIC STYLES*/
 
   _:-ms-input-placeholder, :root .menu-list{
-    display; block;
+    display: block;
     position: absolute;
     top: 10%;
     right: 5%;
