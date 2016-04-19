@@ -556,6 +556,8 @@ label {
   }
 
   .home-menu{
+    -ms-flex-direction: row;
+    -ms-justify-content: flex-end;
     flex-direction: row;
     justify-content: flex-end;
     padding-right:  5rem;
@@ -732,19 +734,6 @@ label {
 
   .google-maps {
     padding: 4rem 3rem;
-  }
-
-  /*IE 10/11 SPECIFIC STYLES*/
-
-  _:-ms-input-placeholder, :root .menu-list{
-    display: block;
-    position: absolute;
-    top: 10%;
-    right: 5%;
-  }
-
-  _:-ms-input-placeholder, :root .menu-item{
-    display: inline-block;
   }
 
 }
