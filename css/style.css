@@ -563,9 +563,20 @@ label {
     padding-right:  5rem;
   }
 
+    _:-ms-input-placeholder, :root .menu-list{
+    display: block;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+  }
+
+  _:-ms-input-placeholder, :root .menu-item{
+    display: inline-block;
+  }
+
   .nav-up{
     top: -72px;
-}
+  }
 
   .menu-logo{
     margin-right: auto;
@@ -704,8 +715,8 @@ label {
   }
 
   .contact-img{
-      max-width: 46%;
-      align-self: center;
+    max-width: 46%;
+    align-self: center;
   }
 
   .contact-text{
