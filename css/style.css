@@ -25,16 +25,6 @@ label {
     max-width: 100%;
     height: auto;
 }
-
-/*@font-face{
-	font-family:'Open Sans';
-	src: url(web-fonts/opensans-reg/'OpenSans-Regular-webfont.eot');
-	src: url(web-fonts/opensans-reg/'OpenSans-Regular-webfont?iefix') format('eot'),
-	     url(web-fonts/opensans-reg/'OpenSans-Regular-webfont.woff') format('woff'),
-	     url(web-fonts/opensans-reg/'OpenSans-Regular-webfont.ttf') format('truetype'),
-	     url(web-fonts/opensans-reg/'OpenSans-Regular-webfont.svg#webfont') format('svg');
-}*/
-
   a{
   text-decoration: none;
 }
@@ -55,11 +45,11 @@ label {
   color: #3fa9f5;
 }
 
-.is-bold{
+  .is-bold{
   font-weight: 600;
 }
 
-.is-contained-in-600px{
+  .is-contained-in-600px{
   max-width: 600px;
   margin: 0 auto;
 }
@@ -428,6 +418,8 @@ label {
  _:-ms-input-placeholder, :root .principles-section{
   flex-wrap: wrap;
   justify-content: space-around;
+  max-width: 100%;
+  align-items: stretch;
 }
 
  .principles-sub{
@@ -575,7 +567,7 @@ label {
     padding-left: 5rem;
   }
 
-  /*IE 11 SPECIFIC STYLING FOR MENU*/
+  /*IE 11 SPECIFIC STYLING FOR MENU LOGO*/
     _:-ms-input-placeholder, :root .menu-logo{
     position: absolute;
     top: 10%;
@@ -667,6 +659,11 @@ label {
   .principles-sub.odd-sub{
     flex-direction: row-reverse;
   }
+
+  _:-ms-input-placeholder, :root .principles-sub{
+    display: flex;
+    justify-content: space-around;
+ }
 
   .principles-img{
     max-width: 38%;
