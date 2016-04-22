@@ -184,9 +184,8 @@ label {
   transition: top 0.3s ease-in-out;
 }
 
- .logo-container{
+  .logo-container{
    width: 72px;
-   margin:0 auto;
  }
 
   .menu-list{
@@ -647,8 +646,9 @@ label {
     margin-right: auto;
   }
 
-  .menu-logo{
-    padding-left: 5rem;
+  .logo{
+    margin-left: 3rem;
+    margin-top: .5rem;
   }
 
   /*IE 11 SPECIFIC STYLING FOR MENU LOGO*/
