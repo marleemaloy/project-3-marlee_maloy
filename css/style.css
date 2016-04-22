@@ -256,10 +256,7 @@ label {
    #70d4e4 47%,
    #30c0d8 100%
    );
-   z-index: 1;
-   /*overflow: hidden;*/
    width: 100%;
-   position: fixed;
    height: 29rem;
    padding: 4.15rem .5rem;
    top: 0;
@@ -308,17 +305,12 @@ label {
  * This represents the content area (everything below the hero section)
  */
  .content-wrapper {
-    /* These styles are for the "scroll-over" effect */
-    position: absolute;
-    top: 30rem;
     width: 100%;
-    z-index: 3;
     background: white;
 }
 
  .content-box{
-  padding: 3rem 0 1rem 0;
-  z-index: 3;
+    padding: 3rem 0 1rem 0;
 }
 
  .content-head{
@@ -328,10 +320,6 @@ label {
  .content-subhead i {
   margin-right: 7px;
 }
-
- .primary-content{
-   z-index: 3;
- }
 
  footer{
   padding: .75rem;
@@ -445,17 +433,17 @@ label {
 }
 
  .about-us img{
-  border-radius: 50%;
-  border: 8px solid #34495e;
+    border-radius: 50%;
+    border: 8px solid #34495e;
 }
 
  .about-us.content-box{
-  padding-top: 0;
+    padding-top: 0;
 }
 
  .team-sub{
-  margin: 1em .5em;
-  max-width: 275px;
+    margin: 1em .5em;
+    max-width: 275px;
 }
 
  .team-sub .content-subhead{
@@ -684,11 +672,6 @@ label {
     margin-top: 0;
   }
 
-  .content-wrapper{
-    top: 37rem;
-    z-index: 3;
-  }
-
   .content-head{
     font-size: 1.85rem;
   }
@@ -749,9 +732,7 @@ label {
     display: flex;
 
     -ms-flex-direction: column;
-
     -webkit-flex-direction: column;
-
     flex-direction: column;
 
     padding-left: .7rem;
@@ -766,17 +747,13 @@ label {
     display: flex;
 
     -ms-justify-content: center;
-
     -webkit-justify-content: center;
-
     justify-content: center;
   }
 
   .principles-sub.odd-sub{
     -ms-flex-direction: row-reverse;
-
     -webkit-flex-direction: row-reverse;
-
     flex-direction: row-reverse;
   }
 
@@ -1015,9 +992,5 @@ label {
 @media screen and (min-width: 1200px){
     .hero-container{
       height: 40rem;
-    }
-
-    .content-wrapper{
-      top: 38rem;
     }
 }
