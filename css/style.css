@@ -186,7 +186,6 @@ label {
 
  .logo-container{
    max-width: 72px;
-   margin-right: auto;
  }
 
   .menu-list{
@@ -645,6 +644,10 @@ label {
 
   .menu-logo{
     padding-left: 5rem;
+  }
+
+  .logo-container{
+    margin-right: auto;
   }
 
   /*IE 11 SPECIFIC STYLING FOR MENU LOGO*/
