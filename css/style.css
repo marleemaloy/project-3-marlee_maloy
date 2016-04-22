@@ -318,6 +318,7 @@ label {
 
  .content-box{
   padding: 3rem 0 1rem 0;
+  z-index: 3;
 }
 
  .content-head{
@@ -327,6 +328,10 @@ label {
  .content-subhead i {
   margin-right: 7px;
 }
+
+ .primary-content{
+   z-index: 3;
+ }
 
  footer{
   padding: .75rem;
