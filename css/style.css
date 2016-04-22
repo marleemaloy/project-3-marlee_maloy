@@ -166,9 +166,18 @@ label {
   padding: 0.5em;
   box-shadow: 0 0 2px rgba(6,8,8,0.15);
   background: white;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+
+  -webkit-flex-direction: column;
   flex-direction: column;
+
+  -webkit-align-items: center;
   align-items: center;
+
   position: fixed;
   width: 100%;
   top: 0;
@@ -177,6 +186,10 @@ label {
 
   .menu-list{
   list-style-type: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   padding-left: 0;
 }
@@ -253,7 +266,17 @@ label {
  }
 
  .hero-content{
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
    display: flex;
+
+   -ms-flex-direction: column;
+   -ms-align-items: center;
+
+   -webkit-flex-direction: column;
+   -webkit-align-items: center;
+
    flex-direction: column;
    align-items: center;
    padding-top: 3.5rem
@@ -368,9 +391,19 @@ label {
 --ABOUT PAGE--
 */
  .latest-project-sub{
-  display: flex;
-  flex-flow: column;
-  align-items: center;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: -webkit-flex;
+   display: flex;
+
+   -ms-flex-flow: column;
+   -ms-align-items: center;
+
+   -webkit-flex-flow: column;
+   -webkit-align-items: center;
+
+   flex-flow: column;
+   align-items: center;
   }
 
   .flex-logo-wrapper{
@@ -387,10 +420,22 @@ label {
   }
 
  .team-section{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-wrap: wrap;
+    -ms-justify-content: space-around;
+    -ms-align-items: center;
+
+    -webkit-flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    -webkit-align-items: center;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 
 }
 
@@ -413,7 +458,19 @@ label {
 }
 
  .principles-section{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+
+  -ms-flex-wrap: wrap;
+  -ms-justify-content: space-around;
+  -ms-align-items: center;
+
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  -webkit-align-items: center;
+
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
@@ -441,7 +498,14 @@ label {
  .global-background{
   background: url(../img/about/night.png) center center;
   height: 40rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
+
+  -ms-align-items: center;
+  -webkit-align-items: center;
+
   align-items: center;
 }
 
@@ -469,7 +533,19 @@ label {
   }
 
  .contact-section{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+
+    -ms-flex-wrap: wrap;
+    -ms-justify-content: space-around;
+    -ms-align-items: center;
+
+    -webkit-flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    -webkit-align-items: center;
+
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
@@ -620,9 +696,20 @@ label {
   }
 
   .our-specialties{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+
+    -ms-flex-flow: row wrap;
+    -ms-justify-content: space-around;
+
+    -webkit-flex-flow: row wrap;
+    -wekit-justify-content: space-around;
+
     flex-flow: row wrap;
     justify-content: space-around;
+
     list-style: none;
     padding-left: 0;
   }
@@ -650,19 +737,40 @@ label {
   /*CHANGING THE LAYOUT OF OUR PRINCIPLES SECTION on the ABOUT PAGE*/
 
   .principles-section{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+
+    -ms-flex-direction: column;
+
+    -webkit-flex-direction: column;
+
     flex-direction: column;
+
     padding-left: .7rem;
     padding-right: .7rem;
     padding-top: 2rem;
   }
 
   .principles-sub{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+
+    -ms-justify-content: center;
+
+    -webkit-justify-content: center;
+
     justify-content: center;
   }
 
   .principles-sub.odd-sub{
+    -ms-flex-direction: row-reverse;
+
+    -webkit-flex-direction: row-reverse;
+
     flex-direction: row-reverse;
   }
 
@@ -677,8 +785,17 @@ label {
 
   .principles-text{
     max-width: 52%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
     flex-direction: column;
+
+    -ms-justify-content: center;
+    -webkit-justify-content: center;
     justify-content: center;
   }
 
@@ -709,8 +826,15 @@ label {
 }
 
   .contact-section{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
     flex-direction: column;
+
     padding-left: .7rem;
     padding-right: .7rem;
     padding-top: 2rem;
@@ -718,23 +842,42 @@ label {
 
   .contact-sub{
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+
+    -ms-justify-content: space-around;
+    -webkit-justify-content: space-around;
     justify-content: space-around;
   }
 
   .contact-sub.odd-sub{
+    -ms-flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
     flex-direction: row-reverse;
   }
 
   .contact-img{
     max-width: 46%;
+    -ms-align-self: center;
+    -webkit-align-self: center;
     align-self: center;
   }
 
   .contact-text{
     max-width: 52%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
     flex-direction: column;
+
+    -ms-justify-content: center;
+    -webkit-justify-content: center;
     justify-content: center;
   }
 
@@ -747,7 +890,13 @@ label {
   }
 
   .contact-form{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+
+    -ms-justify-content: center;
+    -webkit-justify-content: center;
     justify-content: center;
   }
 
