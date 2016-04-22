@@ -186,6 +186,7 @@ label {
 
  .logo-container{
    max-width: 72px;
+   margin-right: auto;
  }
 
   .menu-list{
@@ -643,7 +644,6 @@ label {
   }
 
   .menu-logo{
-    margin-right: auto;
     padding-left: 5rem;
   }
 
