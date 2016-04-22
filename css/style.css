@@ -412,7 +412,7 @@ label {
     font-size: 1.5rem;
   }
 
- .team-section{
+  .team-section{
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -631,6 +631,8 @@ label {
   .home-menu{
     -ms-flex-direction: row; /*VENDOR PREFIXES FOR IE 10*/
     -ms-justify-content: flex-end; /*VENDOR PREFIXES FOR IE 10*/
+    -webkit-flex-direction: row;
+    -webkit-justify-content: flex-end;
     flex-direction: row;
     justify-content: flex-end;
     padding-right:  5rem;
@@ -664,7 +666,7 @@ label {
 
   .hero-head{
     font-size: 3.5rem;
-    padding: 2.25em .2em .5em .18em;
+    padding: 1.25em .2em .5em .18em;
   }
 
   .hero-subhead{
