@@ -184,6 +184,10 @@ label {
   transition: top 0.3s ease-in-out;
 }
 
+ .logo-container{
+   max-width: 72px;
+ }
+
   .menu-list{
   list-style-type: none;
   display: -webkit-box;
