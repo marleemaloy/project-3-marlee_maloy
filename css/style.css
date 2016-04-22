@@ -498,7 +498,6 @@ label {
 
   -ms-align-items: center;
   -webkit-align-items: center;
-
   align-items: center;
 }
 
@@ -659,7 +658,6 @@ label {
     margin-right: 15px;
   }
 
-
   .hero-container{
     height: 35rem;
   }
@@ -684,6 +682,7 @@ label {
 
   .our-principles .content-head{
     font-size: 1.8rem;
+    clear: both;
   }
 
   .our-specialties{
@@ -916,6 +915,7 @@ label {
 
     .global-text{
       padding: 1rem 10rem;
+      max-width: 100%;
     }
 
     .contact-text p{
@@ -934,7 +934,7 @@ label {
 @media screen and (min-width: 1000px) {
     .hero-head{
       font-size: 5rem;
-      padding: 1.25em .2em .5em .18em;
+      padding: .5em .2em .5em .18em;
     }
 
     .hero-subhead{
