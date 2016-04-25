@@ -64,6 +64,11 @@ a{
   margin-bottom: 0;
 }
 
+
+ .bottom-padding{
+   padding-bottom: 2rem;
+ }
+
 /*
    -- LAYOUT STYLES --
  */
