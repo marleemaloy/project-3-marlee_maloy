@@ -343,10 +343,15 @@ a{
 --HOME PAGE--
 */
 
+.flex-mockup{
+  max-width: 850px;
+  margin: 0 auto;
+}
+
 .flex-logo-wrapper{
   padding: 1rem 1rem 0 1rem;
   max-width: 400px;
-  margin: 0 auto;
+  margin: 1rem auto 0 auto;
 }
 
  .ribbon {
@@ -1002,7 +1007,7 @@ a{
       height: 40rem;
     }
 
-    .latest-project-img{
+    /*.latest-project-img{
       position: relative;
     }
 
@@ -1013,5 +1018,5 @@ a{
       -moz-transform: translate(-50%);
       -webkit-transform: translate(-50%);
       transform: translate(-50%);
-    }
+    }*/
 }
