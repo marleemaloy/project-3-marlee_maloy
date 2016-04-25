@@ -351,7 +351,6 @@ a{
 .flex-logo-wrapper{
   padding: 1rem;
   width: 250px;
-  max-width: 400px;
   margin: 1rem auto 0 auto;
 }
 
@@ -646,6 +645,10 @@ a{
 
   .content-box{
     padding: 4rem 0;
+  }
+
+  .flex-logo-wrapper{
+    width: 300px;
   }
 
   .home-menu{
@@ -999,7 +1002,7 @@ a{
     }
 
     .flex-logo-wrapper{
-      padding: 0 4.5rem;
+      width: 400px;
     }
 }
 
