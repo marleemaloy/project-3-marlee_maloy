@@ -1005,22 +1005,3 @@ a{
       width: 400px;
     }
 }
-
-@media screen and (min-width: 1200px){
-    .hero-container{
-      height: 40rem;
-    }
-
-    /*.latest-project-img{
-      position: relative;
-    }
-
-    .flex-mockup{
-      position: relative;
-      left: 50%;
-      -ms-transform: translate(-50%);
-      -moz-transform: translate(-50%);
-      -webkit-transform: translate(-50%);
-      transform: translate(-50%);
-    }*/
-}
