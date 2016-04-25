@@ -728,6 +728,10 @@ a{
 
   /*CHANGING THE LAYOUT OF OUR PRINCIPLES SECTION on the ABOUT PAGE*/
 
+  .our-principles.content-box{
+    padding-top: 0; /*negates the double padding due to 2 content boxes on top of one another*/
+  }
+
   .principles-section{
     display: -webkit-box;
     display: -ms-flexbox;
