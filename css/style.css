@@ -5,7 +5,7 @@
 body {
     font: 100%/1.5 "futura-pt", sans-serif;
     color: #7f8c8d;
-    font-size: 16px;
+    font-size: 18px;
     width: 100%;
     padding: 56px 0 0 0;
     -webkit-font-smoothing: antialiased;
@@ -318,7 +318,7 @@ label {
 }
 
  .content-head{
-  font-weight: 400;
+  font-weight: 500;
 }
 
  .content-subhead i {
@@ -344,8 +344,6 @@ label {
 
  .p-ribbon{
   color: white;
-  font-weight: 400;
-  font-size: 1.01rem;
   padding: 0 10%;
 }
 
