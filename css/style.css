@@ -742,7 +742,8 @@ a{
   /*CHANGING THE LAYOUT OF OUR PRINCIPLES SECTION on the ABOUT PAGE*/
 
   .our-principles.content-box{
-    padding-top: 0; /*negates the double padding due to 2 content boxes on top of one another*/
+    padding-top: 0;
+    /*negates the double padding due to 2 content boxes on top of one another*/
   }
 
   .principles-section{
@@ -989,15 +990,6 @@ a{
 
     .content-box.contact-info{
       padding: 4rem 0 0 0;
-    }
-
-    .latest-project-img{
-      width: 50%;
-      float: left;
-    }
-
-    .latest-project-sub{
-      padding-top: 4rem;
     }
 
     .flex-logo-wrapper{
