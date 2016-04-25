@@ -799,10 +799,6 @@ a{
     font-size: 1.4rem;
   }
 
-  .about-page-p{
-    font-size: 1.25rem;
-  }
-
   /*IE SPECIFIC STYLING FOR ABOUT PAGE PARAGRAPHS*/
   _:-ms-input-placeholder, :root .about-page-p{
     max-width: 550px;
@@ -814,11 +810,6 @@ a{
   }
 
 /*CHANGING LAYOUT FOR CONTACT INFORMATION SECTION ON CONTACT PAGE*/
-
-
-  .contact-info p{
-    font-size: 1.25rem;
-}
 
   .contact-section{
     display: -webkit-box;
