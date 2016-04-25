@@ -5,7 +5,7 @@
 body {
     font: 100%/1.5 "futura-pt", sans-serif;
     color: #7f8c8d;
-    font-size: 18px;
+    font-size: 16px;
     width: 100%;
     padding: 56px 0 0 0;
     -webkit-font-smoothing: antialiased;
@@ -25,53 +25,58 @@ label {
     max-width: 100%;
     height: auto;
 }
-  a{
+
+a{
   text-decoration: none;
 }
 
-  .brand-blue{
+.brand-blue{
   color: #30c0d8;
 }
 
-  .brand-red{
+.brand-red{
   color: #ff6952;
 }
 
-  .is-white{
+.is-white{
   color: white;
 }
 
-  .flex-blue{
+.flex-blue{
   color: #3fa9f5;
 }
 
-  .is-bold{
+.is-bold{
   font-weight: 600;
 }
 
-  .is-contained-in-600px{
+.is-contained-in-600px{
   max-width: 600px;
   margin: 0 auto;
+}
+
+.body-text{
+  font-size: 1.1rem;
 }
 
 /*
    -- LAYOUT STYLES --
  */
 
-  .box{
+.box{
   padding: 1rem;
 }
 
-  .is-center {
-    text-align: center;
+.is-center {
+  text-align: center;
 }
 
-  .clearfix:before, .clearfix:after{
+.clearfix:before, .clearfix:after{
 	content: "";
 	display: table;
 }
 
-  .clearfix:after{
+.clearfix:after{
 	clear: both;
 }
 
@@ -80,17 +85,17 @@ label {
    -- FORM STYLES --
  */
 
-   #contact{
+  #contact{
     padding: 2rem;
     background: #34495e;
     border-radius: 8px;
  }
 
-   fieldset{
+  fieldset{
    border: none;
  }
 
-   .label{
+  .label{
     margin: 1rem 0 0;
     font-weight: 600;
     font-size: 100%;
@@ -162,7 +167,7 @@ label {
  */
 
 
-  .home-menu {
+.home-menu {
   padding: 0.5em;
   box-shadow: 0 0 2px rgba(6,8,8,0.15);
   background: white;
@@ -184,11 +189,11 @@ label {
   transition: top 0.3s ease-in-out;
 }
 
-  .logo-container{
+.logo-container{
    width: 72px;
  }
 
-  .menu-list{
+.menu-list{
   list-style-type: none;
   display: -webkit-box;
   display: -moz-box;
@@ -198,15 +203,15 @@ label {
   padding-left: 0;
 }
 
-  .menu-item{
+.menu-item{
   margin: 0 15px;
 }
 
 
-  .home-menu-fixed {
-    border-bottom: none;
+.home-menu-fixed {
+  border-bottom: none;
     /* I need a higher z-index here because of the scroll-over effect. */
-    z-index: 4;
+  z-index: 4;
 }
 
   .menu-link {
@@ -621,6 +626,10 @@ label {
     padding-top: 0;
   }
 
+  .body-text{
+    font-size: 1.26rem;
+  }
+
   .content-box{
     padding: 4rem 0;
   }
@@ -906,6 +915,10 @@ label {
       font-size: 1.3rem;
     }
 
+    .body-text{
+      font-size: 1.3rem;
+    }
+
     .specialty-description{
       font-size: 1.1rem;
     }
@@ -942,6 +955,7 @@ label {
     .hero-subhead{
       font-size: 2rem;
     }
+
 }
 
 /*
