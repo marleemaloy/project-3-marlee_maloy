@@ -218,7 +218,7 @@ a{
 }
 
 
-.home-menu-fixed {
+ .home-menu-fixed {
   border-bottom: none;
     /* I need a higher z-index here because of the scroll-over effect. */
   z-index: 4;
