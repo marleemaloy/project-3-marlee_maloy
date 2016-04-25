@@ -59,6 +59,11 @@ a{
   font-size: 1.1rem;
 }
 
+.no-margin{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /*
    -- LAYOUT STYLES --
  */
@@ -319,7 +324,7 @@ a{
 }
 
  .content-box{
-    padding: 3rem 0 1rem 0;
+    padding: 3rem 0 3rem 0;
 }
 
  .content-head{
@@ -337,6 +342,12 @@ a{
 /*
 --HOME PAGE--
 */
+
+.flex-logo-wrapper{
+  padding: 0 2.5rem;
+  max-width: 450px;
+  margin: 1rem 0 0 0;
+}
 
  .ribbon {
     background: #34495e;
@@ -401,10 +412,6 @@ a{
    align-items: center;
   }
 
-  .flex-logo-wrapper{
-    padding: 0 2.5rem;
-    max-width: 450px;
-  }
 
   .about-page-p{
     max-width: 100%;
