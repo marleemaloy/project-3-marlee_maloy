@@ -396,6 +396,12 @@ a{
 /*
 --ABOUT PAGE--
 */
+
+  .our-principles.content-box{
+    padding-top: 0;
+    /*negates the double padding due to 2 content boxes on top of one another*/
+  }
+
  .latest-project-sub{
    display: -webkit-box;
    display: -ms-flexbox;
