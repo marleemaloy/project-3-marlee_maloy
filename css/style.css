@@ -1001,4 +1001,18 @@ a{
     .hero-container{
       height: 40rem;
     }
+
+    .latest-project-img{
+      position: relative;
+    }
+
+    .flex-mockup{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, 50%);
+      -moz-transform: translate(-50%, 50%);
+      -webkit-transform: translate(-50%, 50%);
+      transform: translate(-50%, 50%);
+    }
 }
