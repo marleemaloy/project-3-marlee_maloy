@@ -342,11 +342,6 @@ a{
     background: #34495e;
 }
 
- .content-head-ribbon {
-    color: white;
-    font-weight: 100;
-}
-
  .p-ribbon{
   color: white;
   padding: 0 10%;
@@ -723,10 +718,6 @@ a{
     max-width: 45%;
   }
 
-  .p-ribbon{
-    font-size: 1.16rem;
-  }
-
   .content-head-ribbon{
     margin-bottom: 0;
   }
@@ -915,7 +906,6 @@ a{
     }
 
     .p-ribbon{
-      font-size: 1.2rem;
       padding: 0 20%;
     }
 
